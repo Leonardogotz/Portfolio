@@ -15,13 +15,13 @@ Paleta de cores
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
-  --bs-green: #198754;
+  --bs-green: rgb(24, 201, 1);
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
   --bs-white: #fff;
   --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
+  --bs-gray-dark: #323639;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
@@ -58,7 +58,7 @@ Paleta de cores
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #45a73c;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -4143,13 +4143,13 @@ textarea.form-control-lg {
 }
 
 .navbar-dark {
-  --bs-navbar-color: #ce2340;
+  --bs-navbar-color: #ff5e00;
   --bs-navbar-hover-color: #6f1b2c;
-  --bs-navbar-disabled-color: #ce2340;
-  --bs-navbar-active-color: #6f1b2c;
+  --bs-navbar-disabled-color: #947d81;
+  --bs-navbar-active-color: #ff5e00;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
-  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+  --bs-navbar-toggler-border-color: rgb(27, 26, 26);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   font-size: 18px;
 }
@@ -4712,7 +4712,7 @@ textarea.form-control-lg {
   --bs-alert-border-color: #f5c2c7;
 }
 .alert-danger .alert-link {
-  color: #6a1a21;
+  color: #f8e7e8;
 }
 
 .alert-light {
@@ -10931,15 +10931,15 @@ textarea.form-control-lg {
 }
 
 body::-webkit-scrollbar {
-  width: 10px;
+  width: 15px;
 }
 
 body::-webkit-scrollbar-track {
-  background: #6f1b2c;
+  background: #323639;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #ce2340;
+  background-color: #ff5e00;
   border-radius: 20px;
 }
 
@@ -10958,14 +10958,14 @@ body::-webkit-scrollbar-thumb {
 
 .myCurriculum button:hover{cursor: pointer}
 .myCurriculum button {
-  background: #1C1C1C; 
+  background: #09050000; 
   outline: none;
   position: relative;
-  border: 1.5px solid #ce2340;
+  border: 1.5px solid #ff5e00;
   border-radius: 15px;
   padding: 15px 30px;
   overflow: hidden;
-  color: #ce2340;
+  color: #ff5e00;
   width: 100%;
 }
 
