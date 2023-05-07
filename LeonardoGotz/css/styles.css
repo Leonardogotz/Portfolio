@@ -10883,7 +10883,7 @@ textarea.form-control-lg {
   height: 900px;
 }
 
-@media (max-width: 992px){
+@media (max-width: 900px){
   #MySkills {
     height: 100%;
   }
